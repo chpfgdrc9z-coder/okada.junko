@@ -197,4 +197,17 @@ strong {
 
 .greeting-text p {
   margin: 0;
+
+}
+
+@media (max-width: 768px) {
+  .greeting-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .greeting-photo {
+    width: 80%;
+    max-width: 300px;
+  }
 }
