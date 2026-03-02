@@ -1,0 +1,200 @@
+body {
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  margin: 0;
+  line-height: 1.8;
+  background-color: #fff5f8;
+  color: #333;
+}
+
+.hero {
+  background: linear-gradient(135deg, #ff7eb3, #ff4d94);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+section {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.profile img {
+  width: 250px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  border-left: 6px solid #ff4d94;
+  padding-left: 10px;
+}
+
+.policy ul {
+  list-style: none;
+  padding: 0;
+}
+
+.policy li {
+  background: white;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #ffe0eb;
+  margin-top: 40px;
+}
+
+.promise-list {
+  list-style: none;
+  padding: 0;
+}
+
+.promise-list > li {
+  background: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.promise-list strong {
+  color: #ff4d94;
+  font-size: 1.1em;
+}
+
+.detail-list {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.profile-section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.profile-text {
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+.photo-gallery {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-gallery img {
+  width: 280px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.candidate-name {
+  font-size: 6vw;
+  font-weight: 800;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+.detail-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 20px;
+  margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+  .detail-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.office {
+  background: #fff0f6;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.office h2 {
+  margin-bottom: 20px;
+}
+
+.office p {
+  margin: 10px 0;
+}
+
+/* Instagramセクション */
+.sns {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+/* ボタン */
+.insta-button {
+  display: block;
+  width: fit-content;
+  margin: 30px auto 0 auto;
+  padding: 15px 35px;
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+  color: white;
+  text-decoration: none;
+  border-radius: 40px;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: 0.3s;
+}
+
+.insta-button:hover {
+  opacity: 0.85;
+}
+
+.subtitle {
+  font-size: 2em;   /* 今より大きめ */
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+}
+
+strong {
+  font-size: 1em;
+  color: #ff4d94;
+  font-weight: bold;
+  border-left: 6px solid #ff4d94;
+  padding-left: 12px;
+  margin-top: 40px;
+}
+
+.greeting-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;   /* 写真と文章の間のすき間 */
+}
+
+.greeting-photo {
+  width: 250px;
+  border-radius: 10px;
+}
+
+.greeting-text {
+  flex: 1;
+}
+
+.greeting-text p {
+  margin: 0;
+}
