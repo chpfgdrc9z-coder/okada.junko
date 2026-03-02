@@ -203,11 +203,18 @@ strong {
 @media (max-width: 768px) {
   .greeting-container {
     flex-direction: column;
-    text-align: center;
+    align-items: center;
+    text-align: left;
   }
 
   .greeting-photo {
     width: 80%;
     max-width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .greeting-text {
+    width: 100%;
   }
 }
+
